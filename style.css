@@ -5,6 +5,9 @@
 
 .main{
     background-image: url('Assets/image/bg.jpg');
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
     height: 80vh;
     position: relative;
 }
@@ -24,5 +27,17 @@ nav{
     max-width: 80vw;
     margin: auto;
     justify-content: space-between;
-    
+    height: 65px;
+}
+
+nav img{
+    color:white;
+    height: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
 }
