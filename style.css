@@ -3,14 +3,18 @@
     margin: 0px;
 }
 
-main{
+.main{
     background-image: url('Assets/image/bg.jpg');
     height: 80vh;
+    position: relative;
 }
 
-main .box{
+div .box{
     height: 80vh;
     width: 100%;
     opacity: 0.44;
+    position: absolute;
+    top:0;
     background-color: black;
+    
 }
