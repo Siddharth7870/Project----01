@@ -16,5 +16,13 @@ div .box{
     position: absolute;
     top:0;
     background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
     
 }
