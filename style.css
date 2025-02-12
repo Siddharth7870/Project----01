@@ -2,20 +2,23 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: black;
+}
 
 .main{
     background-image: url('Assets/image/bg.jpg');
     background-position: center center;
     background-size: max(1000px, 100vw);
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     position: relative;
 }
 
 div .box{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.7;
     position: absolute;
     top:0;
     background-color: black;
@@ -41,4 +44,66 @@ nav button{
     position: relative;
     z-index: 10;
     
+}
+
+.hero{
+    margin-top: 28vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    flex-direction: column;
+   color: white ;
+   position: relative;
+}
+
+.line{
+    margin-top: 20%;
+    height: 7px;
+    background-color: rgba(214, 28, 11, 0.873);
+    border-radius: 40px;
+}
+
+.btn{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    
+}
+
+.btn-red-sin{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+    font-size: medium;
+}
+
+.btn-red-get{
+    background-color: red;
+    color: white;
+    height:50px;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    font-size: medium;
+}
+
+#email{
+    background-color: rgba(2, 2, 3, 0.8);
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: #ccc 1px solid;
+    box-sizing: border-box;
+    box-shadow: 29px;
+    width: 25vw;
 }
